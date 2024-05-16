@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Front</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    <script src="Scripts/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <style>
+        .brand-logo {
+            margin-top: 0;
+        }
+
+        #submitButton {
+            position: absolute;
+            right: 50%;
+            top: 70%;
+        }
+
+        #contato {
+            position: absolute;
+            top: 15%;
+            left: 34%;
+        }
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <p class="brand-logo center">Contato</p>
+        </div>
+    </nav>
+
+    <div class="row">
+        <form id="contato" class="col s4">
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="nome" type="text" class="validate">
+                    <label for="nome">Nome</label>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">phone</i>
+                        <input id="telefone" type="tel" class="validate">
+                        <label for="telefone">Telefone</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">remove_red_eye</i>
+                        <input id="observacao" type="text" class="validate" maxlength="300">
+                        <label for="observacao">Observa&ccedil;&atilde;o</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <button id="submitButton" class="btn waves-effect waves-light" type="submit" name="action">
+        Enviar
+        <i class="material-icons right">send</i>
+    </button>
+
+    <script src="C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\JQuery\contatosJQuery.js"></script>
+
+    <script src="C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\JQuery\stylePage.js"></script>
+
+</body>
+
+</html>

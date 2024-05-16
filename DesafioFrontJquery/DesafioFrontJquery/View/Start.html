@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Front</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="Scripts/jquery-3.7.1.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <style>
+        .brand-logo {
+            margin-top: 0;
+        }
+
+        .card {
+            position: absolute;
+            width: 50%;
+            left: 25%;
+            top: 20%;
+        }
+
+        .card-content grey lighten-4 {
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav>
+            <div class="nav-wrapper">
+                <p class="brand-logo center">Desafio</p>
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Contatos.html">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="card">
+        <div class="card-content">
+            <p>
+                Um conjunto de páginas sem interação com backend:<br>
+                <br>
+                Um menu superior (navbar) com opções para uma página principal e uma página de contatos.
+            </p>
+        </div>
+        <div class="card-tabs">
+            <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active" href="#tab1">Pagina principal requisitos</a></li>
+                <li class="tab"><a class="active" href="#tab2">Pagina de contato requisitos</a></li>
+            </ul>
+        </div>
+        <div id="tab1" class="card-content grey lighten-4">
+            <p>
+                -Uma imagem centralizada ao seu gosto;<br><br>
+                -Um texto localizado logo abaixo da imagem com a descrição do que está ocorrendo na imagem;<br><br>
+                -Um link que redirecione para a fonte da imagem em outra aba;<br><br>
+                -Um botão que invoque um alert puro com uma mensagem de texto que é gerada a partir de um array de palavras pré definidas; (a frase será composta por 5 palavras da lista de 200 palavras no array).
+            </p>
+        </div>
+        <div id="tab2" class="card-content grey lighten-4">
+            <p>
+                -Um formulário com os campos: Nome, Telefone (se possível com máscara), E-mail (se possível com máscara e validação de e-mail), um campo de observação (com limitação de 300 caracteres)<br><br>
+                -Um botão logo abaixo do formulário com a label “Enviar” que ao ser selecionado exibirá os valores dos campos ao seu gosto (podendo ser, uma modal, um alert, no console…enfim…)
+            </p>
+        </div>
+    </div>
+
+    <script src="C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\JQuery\startJQuery.js"></script>
+
+    <script src="C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\JQuery\stylePage.js"></script>
+
+</body>
+</html>

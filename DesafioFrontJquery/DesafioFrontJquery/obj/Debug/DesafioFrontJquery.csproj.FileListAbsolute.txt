@@ -1,0 +1,7 @@
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\bin\Debug\DesafioFrontJquery.exe.config
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\bin\Debug\DesafioFrontJquery.exe
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\bin\Debug\DesafioFrontJquery.pdb
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\obj\Debug\DesafioFrontJquery.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\obj\Debug\DesafioFrontJquery.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\obj\Debug\DesafioFrontJquery.exe
+C:\Users\Administrator\source\repos\DesafioFrontJquery\DesafioFrontJquery\obj\Debug\DesafioFrontJquery.pdb
